@@ -3,8 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Mail, MapPin, Phone, Sparkles, Users, LineChart, BookOpen, Handshake, Palette, Globe2 } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 
 const services = [
   { icon: LineChart, title: "Strateško i projektno savjetovanje", text: "Razvoj projektnih ideja, logičkih okvira, strategija, akcionih planova, izvještaja i evaluacijskih alata." },
