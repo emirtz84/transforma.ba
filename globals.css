@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 80 20% 97%;
+  --foreground: 240 10% 8%;
+  --border: 240 6% 90%;
+  --input: 240 6% 90%;
+  --ring: 105 24% 54%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f8f6;
+}
